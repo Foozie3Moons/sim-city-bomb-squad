@@ -1,0 +1,31 @@
+body {
+
+}
+
+.gameBox {
+  background-color: black;
+  width: 200px;
+  height: 400px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.unexploded {
+  background-image: url('img/simcity.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+}
+
+.exploded {
+  background-image: url('img/explosion.jpg');
+  background-size: 100%;
+}
+
+.timer {
+  color: red;
+}
